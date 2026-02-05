@@ -1,3 +1,8 @@
+#ifndef CMD_OPEN_H
+#define CMD_OPEN_H
+
+extern USBHIDKeyboard Keyboard;
+
 void openCmd() {
   delay(5000);
   Keyboard.press(KEY_LEFT_GUI);
@@ -19,3 +24,5 @@ void openCmd() {
   Keyboard.releaseAll();
   delay(2000); 
 }
+
+#endif

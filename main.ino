@@ -12,7 +12,7 @@ bool isRunning = false;
 void setup() {
   Serial.begin(115200);
   
-  AtomS3.begin(true, true);
+  AtomS3.begin(true);
   ledManager.init();
   
   USB.begin();
