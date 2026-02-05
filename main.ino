@@ -1,7 +1,7 @@
 #include <USB.h>
 #include <USBHIDKeyboard.h>
-#include "cmd_open.h"
-#include "command.h"
+#include "src/cmd_open.h"
+#include "src/command.h"
 
 USBHIDKeyboard Keyboard;
 
