@@ -1,2 +1,3 @@
 USBHID
 USB
+M5AtomS3
