@@ -1,9 +1,9 @@
 #include <USB.h>
 #include <USBHIDKeyboard.h>
 #include <M5AtomS3.h>
-#include "src/cmd_open.h"
-#include "src/command.h"
-#include "src/led_manager.h"
+#include "../src/cmd_open.h"
+#include "../src/command.h"
+#include "../src/led_manager.h"
 
 USBHIDKeyboard Keyboard;
 LedManager ledManager;
